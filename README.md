@@ -1,4 +1,4 @@
-steps:
+steps: <br />
 1. clone project <br />
 2. install vagrant on host machine <br />
 3. run "vagrant up" <br />
