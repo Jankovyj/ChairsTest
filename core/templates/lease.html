@@ -1,0 +1,8 @@
+{% extends 'site_base.html' %}
+{% block body %}
+<form action="" method="post">{% csrf_token %}
+    Available = {{ amount }}
+    {{ form.as_p }}
+    <input type="submit" value="Lease" />
+</form>
+{% endblock %}
